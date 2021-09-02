@@ -1,0 +1,80 @@
+.tutorial {
+  width: 600px;
+  text-align: center;
+  margin: auto;
+}
+
+figure.image {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+figure .image img {
+  width: 128px;
+}
+
+.notification {
+  margin-top: 20px !important;
+}
+
+.results {
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
+.title .icon {
+  margin-left: 15px;
+}
+
+.hero {
+  margin-bottom: 20px;
+}
+
+.forms {
+  display: flex;
+  justify-content: space-around;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+.dropdown-item img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+#parent {
+  display: grid;
+  text-align: center;
+  margin: 30px auto;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 30px;
+  grid-column-gap: 20px;
+}
+
+.search_class {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+}
+
+.search_btn {
+  margin-left: 5px;
+  border: none;
+}
+
+#movie_search {
+  width: 600px;
+  border-radius: 40px;
+  color: #2d00ce;
+}
+
+body {
+  background-image: url("https://img.freepik.com/free-photo/delicate-yellow-abstract-watercolor-background_3590-82.jpg?size=626&ext=jpg&ga=GA1.2.1366673326.1630601062s");
+  height: max-content;
+}
